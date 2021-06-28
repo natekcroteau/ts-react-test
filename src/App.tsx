@@ -1,11 +1,10 @@
-import './App.css';
+import React from "react";
+import { TextField } from "./Components/TextField";
 
-function App() {
-  return (
-    <div >
-      
+const App: React.FC = () => {
+  return(
+    <div>
+      <TextField text="hello world" />
     </div>
-  );
+  )
 }
-
-export default App;
